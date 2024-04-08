@@ -1,0 +1,25 @@
+
+mongodb://username:password@hostname:port/database
+
+
+
+/home/dev/www/game/poker.c4ei.net/server
+yarn start
+
+/home/dev/www/game/poker.c4ei.net/client
+
+
+
+
+docker inspect aba350cdc3a0
+
+
+
+/home/dev/www/game/poker.c4ei.net/client/src/services/config.ts
+let SERVER_URL = 'https://poker.c4ex.net'; // 3111
+let WEBSOCKET_URL = 'wss://pkapi.c4ex.net'; // 3112
+
+/home/dev/www/game/poker.c4ei.net/client/src/services/requests/config/config.ts
+export const SERVER_PORT = 3111; // 3003
+export const SOCKET_PORT = 3112; // 2567
+/home/dev/www/game/poker.c4ei.net/server/config.js

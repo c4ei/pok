@@ -19,7 +19,7 @@ app.use(
 
 app.use(compression());
 app.use(express.json());
-app.use(express.static(`${__dirname}/../client`));
+app.use(express.static(`${__dirname}/../client/dist`));
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");

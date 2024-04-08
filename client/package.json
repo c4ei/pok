@@ -20,7 +20,8 @@
         "prettier:check": "npm run prettier -- -c ./src/**/*.ts",
         "lint-check": "npx eslint ./src/**/*.ts",
         "code-style-check": "npm run lint-check && npm run prettier:check",
-        "prepare": "husky install"
+        "prepare_notwork": "husky install",
+        "prepare": "cd .. && husky install client/.husky"
     },
     "author": "jkanchelov",
     "license": "MIT",

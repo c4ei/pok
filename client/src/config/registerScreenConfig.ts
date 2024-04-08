@@ -16,7 +16,7 @@ export default {
   usernameTextInputConfig:{
       x: GAME_WIDTH/2,
       y: GAME_HEIGHT/2 - 150,
-      id: "login-input",
+      id: "login-input_name",
       type: "text",
       classList: "no-focus-border",
       style: {
@@ -34,7 +34,7 @@ export default {
    y: GAME_HEIGHT/2 - 50,
    type: "password",
    classList: "no-focus-border",
-   id: "login-input",
+   id: "login-input_pwd",
    style: {
       position: "absolute",
       background: "",
@@ -49,7 +49,7 @@ export default {
    y: GAME_HEIGHT/2 + 50,
    type: "text",
    classList: "no-focus-border",
-   id: "login-input",
+   id: "login-input_nick",
    style: {
       position: "absolute",
       background: "",
