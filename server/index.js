@@ -21,6 +21,7 @@ app.use(compression());
 app.use(express.json());
 app.use(express.static(`${__dirname}/../client/dist`));
 
+console.log("index.js 24 - __dirname :" + __dirname);
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
